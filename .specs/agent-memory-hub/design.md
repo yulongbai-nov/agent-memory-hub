@@ -36,6 +36,7 @@ This repo contains curated docs:
 - `docs/spec-index.md`: index across repos/specs/PRs.
 - `docs/ops.md`: redeploy/debug guidance.
 - `docs/identity.md`: how clients derive stable identity keys and group ids.
+- `docs/demos/e2e-shared-memory/README.md`: end-to-end demo guide across clients.
 - `VERSIONS.md`: pinned commit matrix for aligned versions.
 
 ### Version alignment via submodules
@@ -64,4 +65,3 @@ This ensures:
 
 - Add a release checklist that validates all three repos + Graphiti service E2E.
 - Add an automated “versions refresh” workflow to update `VERSIONS.md`.
-

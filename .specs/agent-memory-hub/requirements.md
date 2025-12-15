@@ -47,3 +47,12 @@ This repo provides central documentation for the Graphiti-based agent memory sys
 4.1 THE Hub Repo SHALL include the participating repos as git submodules under `repos/`.
 4.2 THE Hub Repo SHALL include a version matrix file listing the pinned commits and related PRs.
 
+### Requirement 5: End-to-End Demo
+
+**User Story:** As a user/reviewer, I want a cross-client end-to-end demo guide, so that I can validate shared memory and understand why it’s better than per-client silos.
+
+#### Acceptance Criteria
+
+5.1 THE Hub Repo SHALL include an end-to-end demo that uses both Copilot Chat and Codex CLI against the same Graphiti endpoint.
+5.2 THE demo guide SHALL explain the “old” baseline (per-client memory silos) vs the new canonical shared memory behavior.
+5.3 THE demo guide SHALL include troubleshooting steps (healthcheck, identity, and group id derivation).
