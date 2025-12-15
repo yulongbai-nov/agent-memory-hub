@@ -1,0 +1,12 @@
+[submodule "repos/graphiti"]
+	path = repos/graphiti
+	url = git@github.com:yulongbai-nov/graphiti.git
+	branch = feature/agent-memory-ontology
+[submodule "repos/vscode-copilot-chat"]
+	path = repos/vscode-copilot-chat
+	url = git@github.com:yulongbai-nov/vscode-copilot-chat.git
+	branch = feature/graphiti-memory-integration
+[submodule "repos/codex"]
+	path = repos/codex
+	url = git@github.com:yulongbai-nov/codex.git
+	branch = feature/graphiti-memory-integration
