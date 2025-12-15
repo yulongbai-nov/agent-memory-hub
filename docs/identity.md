@@ -10,13 +10,12 @@ Use a stable key derived from GitHub login:
 
 - `github_login:<login>`
 
-Then resolve the canonical group id:
+Canonical group ids are deterministic:
 
-```bash
-curl -sS http://graph:8000/groups/resolve \
-  -H 'content-type: application/json' \
-  -d '{"scope":"user","key":"github_login:<login>"}'
-```
+- `graphiti_user_<sha256(key)[:32]>` for user scope
+- `graphiti_workspace_<sha256(key)[:32]>` for workspace scope
+
+If the connected Graphiti build supports `POST /groups/resolve`, you can use it to verify the canonical mapping. Older Graphiti builds may return 404; clients fall back to the deterministic formula locally.
 
 ### Where to get `<login>`
 
@@ -26,4 +25,3 @@ curl -sS http://graph:8000/groups/resolve \
 ## Why not email?
 
 Email is often unavailable, sensitive, or inconsistent across providers. Prefer non-PII stable identifiers when possible.
-

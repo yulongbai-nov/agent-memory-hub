@@ -12,9 +12,6 @@ flowchart LR
   end
 
   G --> N[(Neo4j)]
-
-  CC -->|POST /groups/resolve| G
-  CD -->|POST /groups/resolve| G
 ```
 
 ## Ingest vs Recall
@@ -30,6 +27,5 @@ flowchart LR
 
 ## Schema selection
 
-- Clients can set `schema_id: "agent_memory_v1"` on `POST /messages`.
-- If omitted, Graphiti auto-selects `agent_memory_v1` when message content contains `<graphiti_episode ...>`.
-
+- Newer Graphiti builds may support `schema_id: "agent_memory_v1"` on `POST /messages` and/or an optional `POST /groups/resolve` endpoint.
+- Clients must not depend on these endpoints for correctness; they use deterministic group ids and can embed `<graphiti_episode ...>` as plain text on older Graphiti builds.

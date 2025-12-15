@@ -8,6 +8,7 @@ Central documentation for the Graphiti-based “agent memory” integration acro
 - Spec + PR index: `docs/spec-index.md`
 - Identity + shared memory: `docs/identity.md`
 - Ops / redeploy: `docs/ops.md`
+- E2E demo (shared memory): `docs/demos/e2e-shared-memory/README.md`
 - Version matrix: `VERSIONS.md`
 
 ## Active PRs (fork)
