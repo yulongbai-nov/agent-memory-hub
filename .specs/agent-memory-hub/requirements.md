@@ -56,3 +56,13 @@ This repo provides central documentation for the Graphiti-based agent memory sys
 5.1 THE Hub Repo SHALL include an end-to-end demo that uses both Copilot Chat and Codex CLI against the same Graphiti endpoint.
 5.2 THE demo guide SHALL explain the “old” baseline (per-client memory silos) vs the new canonical shared memory behavior.
 5.3 THE demo guide SHALL include troubleshooting steps (healthcheck, identity, and group id derivation).
+
+### Requirement 6: GitHub Pages Showcase
+
+**User Story:** As a reviewer/user, I want a single GitHub Pages-friendly presentation page, so that I can understand how Graphiti, Copilot Chat, and Codex work together without reading multiple repos first.
+
+#### Acceptance Criteria
+
+6.1 THE Hub Repo SHALL provide a static “showcase” page under `docs/index.html`.
+6.2 THE showcase page SHALL explain the end-to-end architecture (clients ↔ Graphiti ↔ Neo4j), identity + canonical group ids, and the ingest/recall loop at a high level.
+6.3 THE showcase page SHALL link to the E2E demo guide and the active PRs/specs for each repo.

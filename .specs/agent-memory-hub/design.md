@@ -36,6 +36,7 @@ This repo contains curated docs:
 - `docs/spec-index.md`: index across repos/specs/PRs.
 - `docs/ops.md`: redeploy/debug guidance.
 - `docs/identity.md`: how clients derive stable identity keys and group ids.
+- `docs/index.html`: GitHub Pages-friendly showcase/presentation of the end-to-end system.
 - `docs/demos/e2e-shared-memory/README.md`: end-to-end demo guide across clients.
 - `VERSIONS.md`: pinned commit matrix for aligned versions.
 
