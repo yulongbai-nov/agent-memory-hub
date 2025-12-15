@@ -11,3 +11,7 @@
 ## Demos
 
 - Cross-client shared memory (Copilot Chat + Codex): `docs/demos/e2e-shared-memory/README.md`
+
+## Showcase
+
+- GitHub Pages presentation: `docs/index.html`

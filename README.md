@@ -4,6 +4,7 @@ Central documentation for the Graphiti-based “agent memory” integration acro
 
 ## Quick links
 
+- Showcase (GitHub Pages): `docs/index.html`
 - Architecture: `docs/architecture.md`
 - Spec + PR index: `docs/spec-index.md`
 - Identity + shared memory: `docs/identity.md`
